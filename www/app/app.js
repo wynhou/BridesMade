@@ -3,12 +3,14 @@ app.config(['$routeProvider','$locationProvider', function($routeProvider, $loca
 
   $routeProvider
   .when('/', {templateUrl: 'home.html', controller: 'homeController'})
-//  .when('/patients', {templateUrl: 'patients.html', controller: 'patientController'})
+ .when('/collection', {templateUrl: 'collection.html', controller: 'collectionController'})
+.when('/getstarted', {templateUrl: 'getstarted.html', controller: 'getstartedController'})
+.when('/howitworks', {templateUrl: 'howitworks.html', controller: 'howitworksController'})
 }]);
 
 app.run (function(){
 
-
+  new WOW().init();
 
 
 

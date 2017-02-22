@@ -1,0 +1,106 @@
+.how-it-works-page {
+    .main-title {
+        h1 {
+            font-size: 40px;
+            color: $primary-brand-light;
+            font-weight: 600;
+            font-family: Parisienne;
+            line-height: 40px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .steps {
+        .row {
+            margin-top: 5px;
+        }
+
+        .content-block {
+            text-align: center;
+            color: #666;
+
+            .number {
+                background: $primary-brand-light;
+                height: 50px;
+                width: 50px;
+                display: block;
+                font-family: Parisienne;
+                border-radius: 100%;
+                line-height: 50px;
+                font-weight: bold;
+                font-size: 35px;
+                color: #fff;
+                margin: 50px auto 30px;
+            }
+
+            .btn {
+                background: $primary-brand-light;
+                color: #fff;
+                margin: 30px;
+            }
+
+            h2 {
+                font-weight: 600;
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 13px;
+                margin-top: 10px;
+            }
+        }
+
+        .step {
+            min-height: 350px;
+            background-size: cover !important;
+        }
+
+        .step-1 {
+            background: url("../img/how-works-images/1.jpg");
+        }
+
+        .step-2 {
+            background: url("../img/how-works-images/2.jpg");
+        }
+
+        .step-3 {
+            background: url("../img/how-works-images/3.jpg");
+        }
+
+        .step-4 {
+            background: url("../img/how-works-images/4.jpg");
+        }
+    }
+
+    .questions {
+        text-transform: uppercase !important;
+
+        h3 {
+            text-transform: uppercase !important;
+            text-align: center;
+            font-size: 40px;
+            margin-top: 50px;
+        }
+
+        strong {
+            color: $primary-brand-light;
+        }
+
+        a {
+            color: $primary-brand-light;
+        }
+
+        p {
+            text-transform: uppercase !important;
+            text-align: center;
+            font-size: 18px;
+            margin: 15px;
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        h1 {
+            font-size: 28px !important;
+        }
+    }
+}
